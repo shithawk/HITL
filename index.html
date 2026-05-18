@@ -175,7 +175,7 @@
             document.getElementById("detail-pane").className = "w-2/3 flex flex-col p-6 bg-slate-900/40 justify-center items-center text-slate-500";
             document.getElementById("detail-pane").innerHTML = `<div class="text-center text-sm text-green-400">🚀 Executed ${action} successfully!</div>`;
 
-            /* 
+            
             // Un-comment this block when your AWS Lambda backend is fully ready:
             try {
                 const response = await fetch(`${API_BASE_URL}/action`, {
@@ -191,7 +191,7 @@
             } catch (err) {
                 console.error("Critical Network Error syncing gate action to AWS:", err);
             }
-            */
+            
         };
 
         // Initialize App
